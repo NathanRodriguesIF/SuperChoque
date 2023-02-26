@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperShock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <h1 id="tituloPrincipal">Super Choque</h1>
+    </header>
+    <div>
+        <h2 id="subTitle">Clique no computador para ter acesso à todas as peças!!!</h2>
+    </div>
+    <div id="content">
+        <nav id="navGabinete">
+            <img src="assets/Gabinete.jpg" alt="Gabinete" id="imgGabinete" onclick="showMain()">
+        </nav>
+        <main id="main">
+            <section id="section1">
+                <aside class="titleSec">
+                    <h3>Placa-Mãe</h3>
+                </aside>
+                <h5>Aqui teremos os componetes que compõe a placa-mãe</h5>
+                <aside>
+                    <img src="assets/PlacaMae.png" alt="Placa Mãe" id="placaMae" class="imagens" onclick="placaMae()">
+                    <p>Placa Mãe</p>
+                </aside>
+            </section>
+            <section id="section2">
+                <aside class="titleSec">
+                    <h3>Na Placa-Mãe</h3>
+                </aside>
+                <h5>Aqui teremos os componetes plugados na placa-mãe</h5>
+                <aside>
+                    <img src="assets/CPU.png" alt="CPU"  class="imagens" onclick="CPU()">
+                    <p>Processador</p>
+                </aside>
+            </section>
+            <section id="section3">
+                <aside class="titleSec">
+                    <h3>Fora da Placa-Mãe</h3>
+                </aside>
+                <h5>Aqui teremos os componetes fora da placa-mãe, em outros lugares do gabinete</h5>
+                <aside>
+                    <img src="assets/Gabinete2.png" alt="Gabinete com lateral aberta" class="imagens" onclick="GabineteLateral()">
+                    <p>Gabinete c/ lateral aberta</p>
+                </aside>
+            </section>
+            <section id="section4">
+                <aside class="titleSec">
+                    <h3>Periféricos</h3>
+                </aside>
+                <h5>Aqui teremos os periféricos do computador</h5>
+                <aside>
+                    <img src="assets/Mouse.png" alt="Mouse" class="imagens" onclick="Mouse()">
+                    <p>Mouse</p>
+                </aside>
+            </section>
+            <section id="section5">
+                <aside class="titleSec">
+                    <h3>Sistema Operacional</h3>
+                </aside>
+                <h5>Aqui teremos os tipos de Sistema Operacional</h5>
+                <aside>
+                    <img src="assets/Windows.png" alt="Windows" class="imagens" onclick="Windows()">
+                    <p>Windows</p>
+                </aside>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
